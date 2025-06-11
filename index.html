@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>You're a Work of Art 🎨</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts"></div>
+
+  <!-- Header Section -->
+  <header>
+    <h1 class="shimmer sparkles">You're a Work of Art 🎨</h1>
+    <p>A digital bouquet made just for you 🌷</p>
+  </header>
+
+  <!-- Compliment Gallery -->
+  <section class="gallery">
+    <div class="frame"><p>“You don't wear style — you define it.”</p></div>
+    <div class="frame"><p>“Photos fade. Your aura doesn’t.”</p></div>
+    <div class="frame"><p>“You are the runway.”</p></div>
+    <div class="frame"><p>“Your light doesn’t need filters.”</p></div>
+
+    <!-- Framed Model Image -->
+    <div class="frame image-frame">
+      <img src=".vscode/IMG_3766.jpeg" alt="Her Model Photo">
+      <p>“Pure grace in motion.”</p>
+    </div>
+  </section>
+
+  <!-- Quote Bubble Section -->
+  <section class="quote-section">
+    <button onclick="showQuote()">✨ Inspire Me</button>
+    <div id="quote-bubble" class="bubble hidden"></div>
+  </section>
+
+  <!-- Surprise Pop-up -->
+  <div id="surprise-box" class="surprise hidden">
+    <p>💖 Just a little reminder: You're beautiful, inside and out.</p>
+    <button onclick="closeSurprise()">Close</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><span id="personal-message" class="glow-name"></span><br/>With 💗 by Ifyyyyy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
